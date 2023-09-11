@@ -1,0 +1,62 @@
+.first-line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  max-width: 1126px;
+  margin: 0 auto;
+}
+
+.bit-img {
+  width: 31.168px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.text-img {
+  width: 143.117px;
+  height: 28.973px;
+  flex-shrink: 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+.buttons {
+  margin-left: 3rem;
+}
+
+.in {
+  width: 102px;
+  height: 46px;
+  border: none;
+  border-radius: 4px;
+  color: #173a56;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.up{
+  width: 110px;
+
+  height: 46px;
+
+  border: none;
+
+  background: #FF9900;
+
+  color: #fff;
+
+  border-radius: 4px;
+
+  margin-left: 10px;
+}
+a {
+  margin-left: 2rem;
+}
