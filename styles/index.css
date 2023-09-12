@@ -31,6 +31,7 @@ ul {
 }
 .buttons {
   margin-left: 3rem;
+  border: none;
 }
 
 .in {
@@ -100,6 +101,7 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  border: none;
 }
 
 .watch {
@@ -193,9 +195,55 @@ h4 {
   position: relative;
   left: 50%;
   top: 20px;
+  border: none;
 }
 
 button:hover {
   cursor: pointer;
   background-color: chartreuse;
+}
+
+.third-part-container,
+.fourth-part-container {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 100px;
+  left: 70px;
+}
+
+.img-man {
+  width: 519.785px;
+  height: 673.31px;
+  flex-shrink: 0;
+  position: relative;
+  top: 20px;
+}
+.third-page-text {
+  width: 486px;
+  height: 531px;
+  flex-shrink: 0;
+}
+
+h3 {
+  margin-top: 0;
+  color: #2f281e;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text-paragrapher-3 {
+  color: #544837;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.third-part-text {
+  margin-bottom: 3px;
+  max-height: 24px;
+
 }
