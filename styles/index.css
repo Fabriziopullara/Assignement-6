@@ -203,8 +203,7 @@ button:hover {
   background-color: chartreuse;
 }
 
-.third-part-container
- {
+.third-part-container {
   display: flex;
   justify-content: space-evenly;
   position: relative;
@@ -245,10 +244,9 @@ h3 {
 .third-part-text {
   margin-bottom: 3px;
   max-height: 24px;
-
 }
 
-.fourth-part-container{
+.fourth-part-container {
   display: flex;
   justify-content: space-evenly;
   position: relative;
@@ -257,30 +255,36 @@ h3 {
 
 .icon-text,
 .icon-text2,
-.icon-text3{
+.icon-text3 {
   display: flex;
   color: #544837;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; /* 162.5% */
-position: relative;
-left: 27px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  position: relative;
+  left: 27px;
 }
 
-.orange-icon{
+.orange-icon {
   position: relative;
   top: 30px;
   right: 30px;
 }
-.img-man-working{
+.img-man-working {
   max-width: 532.615px;
-max-height: 520.035px;
-flex-shrink: 0;
+  max-height: 520.035px;
+  flex-shrink: 0;
 }
-.text-container-fourth{
- max-width:486px;
-max-height: 427px;
-flex-shrink: 0;
+.text-container-fourth {
+  max-width: 486px;
+  max-height: 427px;
+  flex-shrink: 0;
 }
 
+.last-part-container {
+  position: relative;
+  top: 380px;
+  display: flex;
+  justify-content: space-evenly;
+}
